@@ -14,11 +14,12 @@ public class TestBase {
 
 	@AfterClass
 	public void cleanUp() {
-		delay(2000);
+		delay(2000); // it is not required, just added to slow down for human visuals
 		driver.close();
 	}
 
 	void delay(int millis){
+		// it is not required, just added to slow down for human visuals
 		try {
 			Thread.sleep(millis);
 		} catch (InterruptedException e) {
