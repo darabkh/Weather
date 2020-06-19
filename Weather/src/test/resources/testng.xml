@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WeatherTestSuite" parallel="false">
+  <test name="WeatherTest">
+    <classes>
+      <class name="com.weather.test.TestWeather"/>
+    </classes>
+  </test>
+</suite>
